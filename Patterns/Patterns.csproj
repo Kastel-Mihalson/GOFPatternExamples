@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdapterPattern\AdapterPattern.csproj" />
+    <ProjectReference Include="..\BuilderPatternV2\BuilderPatternV2.csproj" />
+    <ProjectReference Include="..\BuilderPatternV3\BuilderPatternV3.csproj" />
+    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj" />
+    <ProjectReference Include="..\CommandPattern\CommandPattern.csproj" />
+    <ProjectReference Include="..\DecoratorPatternV2\DecoratorPatternV2.csproj" />
+    <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj" />
+    <ProjectReference Include="..\FacadePattern\FacadePattern.csproj" />
+    <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj" />
+    <ProjectReference Include="..\IteratorPatternV2\IteratorPatternV2.csproj" />
+    <ProjectReference Include="..\IteratorPattern\IteratorPattern.csproj" />
+    <ProjectReference Include="..\MediatorPattern\MediatorPattern.csproj" />
+    <ProjectReference Include="..\ObserverPattern\ObserverPattern.csproj" />
+    <ProjectReference Include="..\PrototypePattern\PrototypePattern.csproj" />
+    <ProjectReference Include="..\ProxyPattern\ProxyPattern.csproj" />
+    <ProjectReference Include="..\SingletonPattern\SingletonPattern.csproj" />
+    <ProjectReference Include="..\StatePattern\StatePattern.csproj" />
+    <ProjectReference Include="..\StrategyPattern\StrategyPattern.csproj" />
+    <ProjectReference Include="..\VisitorPattern\VisitorPattern.csproj" />
+  </ItemGroup>
+
+</Project>
